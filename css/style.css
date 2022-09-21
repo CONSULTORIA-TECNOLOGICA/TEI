@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.padre-1{
+  border: 1px solid lightgrey;
+  padding: 0px 30px 0px 30px;  /* Esto crea el espaciado en todo el contenedor*/
+  /*justify-content: space-between;*/
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.padre-1 div{  
+  border: 1px solid lightgrey;  
+  cursor: auto;
+}
+
+/* Propiedades para los Links */
+a{
+  display: block;
+  text-decoration: none;
+  font-family: Segoe UI;
+  color: #3f3f3f;  /* COLOR DEL TEXTO */
+  padding: 30px;
+  padding-left: 40px;
+  padding-right: 40px;  
+  font-size: 20px;  
+  font-weight: 600;
+}
+
+/* Con esto indicamos que el ancho min de responsive sea como el de la tablet*/
+@media (min-width: 768px){
+  .padre-1{
+    display: flex;
+  }
+}
+
+.padre-1 div:hover{
+  color: #000000;
+  background-color: #ffffff;
+  cursor: auto;
+}
+
+
+/* Gracias a este, la imagen se adapta al tamaño de la ventana */
+.img1 {
+    width: 100%;
+}
+
+/* Estilo o Propiedades del párrafo 1 */  
+.p1{
+  border: 1px solid lightgrey;
+  /* padding: 0px 30px 0px 30px;  Esto crea el espaciado en todo el contenedor */
+  /* justify-content: center;  Esto centra todo el párrafo */
+  flex-wrap: wrap;
+  font-family: Segoe UI;
+  color: #3f3f3f;  /* COLOR DEL TEXTO */
+  padding: 30px;
+  /* padding-left: 40px;
+  padding-right: 40px;   */
+  font-size: 18px;
+  background-color: #ffffff; 
+}
+
+/* Con esto indicamos que el ancho min de responsive sea como el de la tablet. Para el párrafo 1 */
+/* @media (min-width: 768px){
+  .p1{
+    display: flex;
+  }
+} */
+
+.cont{
+  background-color: #ffffff;
+}
+
+.div20{
+  background-color: #ffffff;   
+  padding: 50px 100px 50px 100px;  /* Esto crea el espaciado en todo el contenedor*/  
+}
+
+.sec20{
+  
+  display: flex;
+  justify-content: space-around; 
+  /* align-items: center; */
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Con esto indicamos que el ancho min de responsive sea como el de la tablet. Para el párrafo 1 */
+@media (min-width: 1600px){
+  .sec20{
+    display: flex;
+  }
+}
+
+.div24{
+  background-color: #ffffff;   
+  padding: 50px 50px 50px 50px;  /* Esto crea el espaciado en todo el contenedor*/  
+}
+
+/* Estilo o Propiedades del párrafo 21 de Producción */  
+.p21{   
+  flex: 1;
+  font-family: Segoe UI;
+  color: #3f3f3f;  /* COLOR DEL TEXTO */  
+  font-size: 24px;  
+  padding-left: 80px;
+  margin-top: 40px;
+}
+
+/* Estilo o Propiedades del párrafo 22 de Producción */  
+.p22{   
+  flex: 2;
+  font-family: Segoe UI;
+  color: #3f3f3f;  /* COLOR DEL TEXTO */  
+  font-size: 18px;  
+  padding-left: 80px;
+}
+
+
+/* Estilo o Propiedades del párrafo 21 de Producción */  
+.p24{   
+  /* flex: 1; */
+  font-family: Segoe UI;
+  color: #3f3f3f;  /* COLOR DEL TEXTO */  
+  font-size: 24px;  
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+/* Estilo o Propiedades del párrafo 22 de Producción */  
+.p25{   
+  /* flex: 2; */
+  font-family: Segoe UI;
+  color: #3f3f3f;  /* COLOR DEL TEXTO */  
+  font-size: 18px;  
+  padding-left: 40px;
+}
+
+/* Para el link a Youtube*/
+.link{
+  flex: 3;
+  font-family: Segoe UI;
+  color: #3f3f3f;  /* COLOR DEL TEXTO */  
+  font-size: 18px;  
+  padding-left: 80px;
+}
+
+.link:hover{
+  background-color: #e7e7e7;
+}
+
+.cont:hover{
+  background-color: #e7e7e7;
+}
+
+.img2{
+  justify-content: space-around; 
+  align-items: center;
+  align-content: center;
+}
+
+
+.ch1{
+  font-family: Segoe UI;
+  padding: 10px 30px 10px 30px ;
+  background-color: rgb(240, 240, 240);
+}
